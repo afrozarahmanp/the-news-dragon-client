@@ -39,11 +39,11 @@ const Register = () => {
         <Container className="w-25 mx-auto mt-5">
             <h3>Please Register</h3>
             <Form onSubmit={handleRegister}>
-                <Form.Group className="mb-3" controlId="formBasicEmail">
+                <Form.Group className="mb-3" controlId="formBasicName">
                     <Form.Label>Name</Form.Label>
                     <Form.Control type="text" name="name" placeholder="Your name" required />
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicEmail">
+                <Form.Group className="mb-3" controlId="formBasicPhoto">
                     <Form.Label>Photo URL</Form.Label>
                     <Form.Control type="text" name="photo" placeholder="Your Photo" required />
                 </Form.Group>
